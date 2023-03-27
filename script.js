@@ -1,6 +1,6 @@
 let erasers = [
     {
-        "name": "Dio",
+        "name": "no",
         "brand": "Tombow",
         "height": 1,
         "width": 2,
@@ -65,6 +65,17 @@ let erasers = [
         "storage": "In my pencil case",
         "img": "img/makena.png"
     },
+        {
+        "name": "Laura ",
+        "brand": "Deli ",
+        "height": 2,
+        "width": 4.5,
+        "length": 3,
+        "age": 0,
+        "usage": "Drawing/sketching and writing in notebooks ",
+        "storage": "Pencil case ",
+        "img": "img/laura.png"
+    },
     {
         "name": "Nate",
         "brand": "Staedtler",
@@ -86,17 +97,6 @@ let erasers = [
         "usage": "Product sketches, journaling, labeling wood pieces,",
         "storage": "Pencil case ",
         "img": "img/bar.png"
-    },
-        {
-        "name": "Laura ",
-        "brand": "Deli ",
-        "height": 2,
-        "width": 4.5,
-        "length": 3,
-        "age": 0,
-        "usage": "Drawing/sketching and writing in notebooks ",
-        "storage": "Pencil case ",
-        "img": "img/laura.png"
     },
     {
         "name": "Adi",
