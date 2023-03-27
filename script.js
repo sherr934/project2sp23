@@ -1,6 +1,6 @@
 let erasers = [
     {
-        "name": "no",
+        "name": "Dio",
         "brand": "Tombow",
         "height": 1,
         "width": 2,
@@ -65,17 +65,6 @@ let erasers = [
         "storage": "In my pencil case",
         "img": "img/makena.png"
     },
-        {
-        "name": "Laura ",
-        "brand": "Deli ",
-        "height": 2,
-        "width": 4.5,
-        "length": 3,
-        "age": 0,
-        "usage": "Drawing/sketching and writing in notebooks ",
-        "storage": "Pencil case ",
-        "img": "img/laura.png"
-    },
     {
         "name": "Nate",
         "brand": "Staedtler",
@@ -97,6 +86,17 @@ let erasers = [
         "usage": "Product sketches, journaling, labeling wood pieces,",
         "storage": "Pencil case ",
         "img": "img/bar.png"
+    },
+        {
+        "name": "Laura ",
+        "brand": "Deli ",
+        "height": 2,
+        "width": 4.5,
+        "length": 3,
+        "age": 0,
+        "usage": "Drawing/sketching and writing in notebooks ",
+        "storage": "Pencil case ",
+        "img": "img/laura.png"
     },
     {
         "name": "Adi",
@@ -192,15 +192,21 @@ function displayErasers(eraser) {
   const eraserCollection = document.getElementById('collection');
   const eraserDiv = document.createElement('div');
   eraserDiv.classList.add('eraser', 'photo');
-  eraserDiv.innerHTML = `
-  <img class='eraserimg' src=${eraser.img}>
-  <p>__</p>
-  <p>owner: ${eraser.name}</p>
-  <p>brand: ${eraser.brand}</p>
-  <p>${eraser.height} x ${eraser.width} x ${eraser.length}"</p>
-  <p>age: ${eraser.age} years old</p>
-  <p>__</p>
-  `;
+  let eraserText;
+  let elements = `<img class='eraserimg' src=${eraser.img}>
+  <div><p>owner: &nbsp <p class="data">${eraser.name}</p> </p></div>
+  <div><p>brand: &nbsp <p class="data">${eraser.brand}</p></div>
+  <div><p><p class="data">${eraser.height} x ${eraser.width} x ${eraser.length}"</p></div>`;
+
+  if (eraser.age===1){
+    eraserText = `<div><p>age: &nbsp <p class="data">${eraser.age} &nbsp year old</p> </p></div>`
+    elements = elements + eraserText;
+  }else{
+    eraserText = `<div><p>age: &nbsp <p class="data">${eraser.age} &nbsp years old</p></p></div>`
+    elements = elements + eraserText;
+  }
+  
+  eraserDiv.innerHTML = elements;
   eraserCollection.appendChild(eraserDiv);
 
   eraserDiv.addEventListener('click', () => {
@@ -220,3 +226,4 @@ function displayErasers(eraser) {
     document.body.style.lineHeight = parseFloat(document.body.style.lineHeight) + (0.4) + "em";
 
 erasers.forEach(displayErasers);
+
