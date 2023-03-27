@@ -1,0 +1,82 @@
+
+body {
+  background-color:  #DEF3FF;
+  background-image: url("img/background.png");
+  background-size: 500px;
+  margin: 0;
+  padding: 20px;
+  font-family: "marydale", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22pt;
+}
+
+
+.title {
+  width: 100%;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+#collection {
+  padding: 3%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.eraser {
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  width: 25%;
+  margin: 4%;
+}
+
+.info > img{
+  display: none;
+}
+
+.info {
+  background-color: #DEF3FF;
+  border-radius: 70px;
+}
+
+.photo > p {
+  display: none
+}
+
+.eraser > p {
+  width: 100%;
+}
+
+.eraserimg {
+  height: 80%;
+}
+
+.eraserimg:hover {
+  animation: shake .6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media (max-width: 700px) {
+  .eraser {
+    width: 100%;
+    height: 40vh;
+  }
+}
