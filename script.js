@@ -221,9 +221,9 @@ function displayErasers(eraser) {
 }
     if (document.body.style.lineHeight == "")
     { 
-        document.body.style.lineHeight = ".1em";
+        document.body.style.lineHeight = ".01em";
     }
-    document.body.style.lineHeight = parseFloat(document.body.style.lineHeight) + (0.2) + "em";
+    document.body.style.lineHeight = parseFloat(document.body.style.lineHeight) + (0.4) + "em";
 
 erasers.forEach(displayErasers);
 
