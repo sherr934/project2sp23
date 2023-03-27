@@ -194,15 +194,15 @@ function displayErasers(eraser) {
   eraserDiv.classList.add('eraser', 'photo');
   let eraserText;
   let elements = `<img class='eraserimg' src=${eraser.img}>
-  <div><p>owner: &nbsp <p class="data">${eraser.name}</p> </p></div>
-  <div><p>brand: &nbsp <p class="data">${eraser.brand}</p></div>
+  <div><p>OWNER: &nbsp <p class="data">${eraser.name}</p> </p></div>
+  <div><p>BRAND: &nbsp <p class="data">${eraser.brand}</p></div>
   <div><p><p class="data">${eraser.height} x ${eraser.width} x ${eraser.length}"</p></div>`;
 
   if (eraser.age===1){
-    eraserText = `<div><p>age: &nbsp <p class="data">${eraser.age} &nbsp year old</p> </p></div>`
+    eraserText = `<div><p>AGE: &nbsp <p class="data">${eraser.age} year old</p> </p></div>`
     elements = elements + eraserText;
   }else{
-    eraserText = `<div><p>age: &nbsp <p class="data">${eraser.age} &nbsp years old</p></p></div>`
+    eraserText = `<div><p>AGE: &nbsp <p class="data">${eraser.age} years old</p></p></div>`
     elements = elements + eraserText;
   }
   
@@ -223,7 +223,7 @@ function displayErasers(eraser) {
     { 
         document.body.style.lineHeight = ".1em";
     }
-    document.body.style.lineHeight = parseFloat(document.body.style.lineHeight) + (0.4) + "em";
+    document.body.style.lineHeight = parseFloat(document.body.style.lineHeight) + (0.2) + "em";
 
 erasers.forEach(displayErasers);
 

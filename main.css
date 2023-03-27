@@ -2,11 +2,13 @@
 body {
   background-color:  #DEF3FF;
   background-image: url("img/background.png");
-  background-size: 500px;
+  background-size: 900px;
   margin: 0;
   padding: 20px;
-  
-  font-size: 36pt;
+  font-size: 42pt;
+  font-family: "agenda", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -38,8 +40,8 @@ body {
 
 .info {
   background-color: #DEF3FF;
-  border-radius: 70px;
-    display: flex;
+  border-radius: 150px;
+  display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
@@ -75,6 +77,7 @@ body {
   font-family: "marydale", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 56pt;
 }
 
 @keyframes shake {
@@ -91,7 +94,7 @@ body {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 2000px) {
   .eraser {
     width: 100%;
     height: 40vh;
