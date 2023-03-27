@@ -2,7 +2,7 @@
 body {
   background-color:  #DEF3FF;
   background-image: url("img/background.png");
-  background-size: 900px;
+  background-size: 1500px;
   margin: 0;
   padding: 20px;
   font-size: 42pt;
@@ -14,8 +14,8 @@ body {
 
 .title {
   width: 100%;
-  padding-top: 40px;
-  margin-bottom: 30px;
+  padding-top: 80px;
+  margin-bottom: 70px;
 }
 
 #collection {
@@ -32,6 +32,7 @@ body {
   height: 60vh;
   width: 25%;
   margin: 4%;
+  filter: drop-shadow(20px 20px 8px #808088);
 }
 
 .info > img{
@@ -42,9 +43,9 @@ body {
   background-color: #DEF3FF;
   border-radius: 150px;
   display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .info p {
