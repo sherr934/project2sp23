@@ -11,6 +11,17 @@ let erasers = [
         "img": "img/dio.png"
     },
     {
+        "name": "Makena",
+        "brand": "Unknown",
+        "height": 2,
+        "width": 3,
+        "length": 2,
+        "age": 4,
+        "usage": "Whenever I draw with pencils",
+        "storage": "In my pencil case",
+        "img": "img/makena.png"
+    },
+    {
         "name": "Disha",
         "brand": "Staedtler",
         "height": 0.8,
@@ -44,6 +55,17 @@ let erasers = [
         "img": "img/kush.png"
     },
     {
+        "name": "Maggie",
+        "brand": "Sax arts & crafts",
+        "height": 2.5,
+        "width": 2.5,
+        "length": 2.5,
+        "age": 0.5,
+        "usage": "Pencil drawing",
+        "storage": "My desk",
+        "img": "img/maggie.png"
+    },
+    {
         "name": "Maria",
         "brand": "Pentel",
         "height": 1.1,
@@ -55,15 +77,15 @@ let erasers = [
         "img": "img/maria.png"
     },
     {
-        "name": "Makena",
-        "brand": "Unknown",
+        "name": "Laura ",
+        "brand": "Deli ",
         "height": 2,
-        "width": 3,
-        "length": 2,
-        "age": 4,
-        "usage": "Whenever I draw with pencils",
-        "storage": "In my pencil case",
-        "img": "img/makena.png"
+        "width": 4.5,
+        "length": 3,
+        "age": 0,
+        "usage": "Drawing/sketching and writing in notebooks ",
+        "storage": "Pencil case ",
+        "img": "img/laura.png"
     },
     {
         "name": "Nate",
@@ -154,18 +176,7 @@ let erasers = [
         "img": "img/scott.png"
     },
     {
-        "name": "Laura ",
-        "brand": "Deli ",
-        "height": 2,
-        "width": 4.5,
-        "length": 3,
-        "age": 0,
-        "usage": "Drawing/sketching and writing in notebooks ",
-        "storage": "Pencil case ",
-        "img": "img/laura.png"
-    },
-    {
-        "name": "Cecelia Denegre",
+        "name": "Cecelia",
         "brand": "Staedtler",
         "height": 0.25,
         "width": 1,
@@ -185,17 +196,6 @@ let erasers = [
         "usage": "I used it a lot for math and science work in highschool. I brought it to college despite the fact that I dont really use it much anymore, as i usually prefer to write in pen, but recently my roomate has been using it for her math homework",
         "storage": "The top drawer of my desk",
         "img": "img/anna.png"
-    },
-    {
-        "name": "Maggie",
-        "brand": "Sax arts & crafts",
-        "height": 2.5,
-        "width": 2.5,
-        "length": 2.5,
-        "age": 0.5,
-        "usage": "Pencil drawing",
-        "storage": "My desk",
-        "img": "img/maggie.png"
     }
 ]
 
