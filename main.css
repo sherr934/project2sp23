@@ -32,6 +32,7 @@ body {
   height: 60vh;
   width: 25%;
   margin: 4%;
+  filter: drop-shadow(10px 10px 4px #808088);
 }
 
 .info > img{
@@ -42,9 +43,9 @@ body {
   background-color: #DEF3FF;
   border-radius: 70px;
   display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .info p {
