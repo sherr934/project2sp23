@@ -87,17 +87,6 @@ let erasers = [
         "storage": "Pencil case ",
         "img": "img/bar.png"
     },
-        {
-        "name": "Laura ",
-        "brand": "Deli ",
-        "height": 2,
-        "width": 4.5,
-        "length": 3,
-        "age": 0,
-        "usage": "Drawing/sketching and writing in notebooks ",
-        "storage": "Pencil case ",
-        "img": "img/laura.png"
-    },
     {
         "name": "Adi",
         "brand": "Staedtler",
@@ -108,17 +97,6 @@ let erasers = [
         "usage": "Big pieces of text that need erasing usually but sometimes smaller parts",
         "storage": "Pencil case",
         "img": "img/adi.png"
-    },
-    {
-        "name": "Scott",
-        "brand": "Sanford",
-        "height": 1,
-        "width": 2,
-        "length": 5.5,
-        "age": 43,
-        "usage": "I used to use it for grade school homework, then in “real life” when writing letters. I have definitely used it for sketching out ideas, especially before painting. ",
-        "storage": "A super early memory of my grandparents was them giving me and my brothers a small 15-drawer metal storage unit to put little things in. I e kept it all these years. The eraser lives faithfully in drawer 7 (second row; second column) along with paper clips, a pencil sharpener, a tiny pair of scissors and some mini safety pins. It will be there u til the day I die. ",
-        "img": "img/scott.png"
     },
     {
         "name": "Fiore ",
@@ -165,7 +143,29 @@ let erasers = [
         "img": "img/taya.png"
     },
     {
-        "name": "Cecelia",
+        "name": "Scott",
+        "brand": "Sanford",
+        "height": 1,
+        "width": 2,
+        "length": 5.5,
+        "age": 43,
+        "usage": "I used to use it for grade school homework, then in “real life” when writing letters. I have definitely used it for sketching out ideas, especially before painting. ",
+        "storage": "A super early memory of my grandparents was them giving me and my brothers a small 15-drawer metal storage unit to put little things in. I e kept it all these years. The eraser lives faithfully in drawer 7 (second row; second column) along with paper clips, a pencil sharpener, a tiny pair of scissors and some mini safety pins. It will be there u til the day I die. ",
+        "img": "img/scott.png"
+    },
+    {
+        "name": "Laura ",
+        "brand": "Deli ",
+        "height": 2,
+        "width": 4.5,
+        "length": 3,
+        "age": 0,
+        "usage": "Drawing/sketching and writing in notebooks ",
+        "storage": "Pencil case ",
+        "img": "img/laura.png"
+    },
+    {
+        "name": "Cecelia Denegre",
         "brand": "Staedtler",
         "height": 0.25,
         "width": 1,
@@ -185,8 +185,19 @@ let erasers = [
         "usage": "I used it a lot for math and science work in highschool. I brought it to college despite the fact that I dont really use it much anymore, as i usually prefer to write in pen, but recently my roomate has been using it for her math homework",
         "storage": "The top drawer of my desk",
         "img": "img/anna.png"
+    },
+    {
+        "name": "Maggie",
+        "brand": "Sax arts & crafts",
+        "height": 2.5,
+        "width": 2.5,
+        "length": 2.5,
+        "age": 0.5,
+        "usage": "Pencil drawing",
+        "storage": "My desk",
+        "img": "img/maggie.png"
     }
-];
+]
 
 function displayErasers(eraser) {
   const eraserCollection = document.getElementById('collection');
