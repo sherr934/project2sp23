@@ -38,6 +38,7 @@ body {
   height: 60vh;
   width: 25%;
   margin: 4%;
+  cursor: pointer;
 }
 
 .info > img{
