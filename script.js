@@ -207,7 +207,7 @@ function displayErasers(eraser) {
   let elements = `<img class='eraserimg' src=${eraser.img}>
   <div><p>OWNER: &nbsp <p class="data">${eraser.name}</p> </p></div>
   <div><p>BRAND: &nbsp <p class="data">${eraser.brand}</p></div>
-  <div><p><p class="data">${eraser.height} x ${eraser.width} x ${eraser.length}"</p></div>`;
+  <div><p>SIZE: &nbsp<p class="data">${eraser.height} x ${eraser.width} x ${eraser.length}"</p></div>`;
 
   if (eraser.age===1){
     eraserText = `<div><p>AGE: &nbsp <p class="data">${eraser.age} year old</p> </p></div>`

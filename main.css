@@ -1,6 +1,6 @@
 
 body {
-  background-color:  #DEF3FF;
+  background-color:  white;
   background-image: url("img/scribble3.png");
   background-size: 500px;
   margin: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .info {
-  background-color: #DEF3FF;
+  background-color: white;
   border-radius: 70px;
   display: flex;
   justify-content: center;
